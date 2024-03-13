@@ -1,0 +1,62 @@
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.padding {
+  padding: 0 10px 10px 10px;
+}
+
+.name-and-rating h3 {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.address p,
+.food-type-and-url p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.food-type-and-url {
+  background: linear-gradient(135deg, #f9f9f9 0%, #e9e9e9 100%);
+  padding: 20px;
+  border-radius: 0 0 12px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.food-type-and-url:hover {
+  background: linear-gradient(135deg, #e9e9e9 0%, #d9d9d9 100%);
+}
+
+.food-type-and-url p {
+  color: #059669;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.food-type-and-url a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.food-type-and-url a:hover {
+  color: #1d4ed8;
+}
